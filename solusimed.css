@@ -1,0 +1,144 @@
+body{
+margin:0;
+font-family: Arial, sans-serif;
+
+background: linear-gradient(
+180deg,
+#fffdf4 0%,
+#fff7d6 40%,
+#ffeeb8 70%,
+#ffe3a3 100%
+);
+
+min-height:100vh;
+}
+
+/* HEADER IMAGE */
+
+.header img{
+width:100%;
+height:auto;
+}
+
+/* TOP BAR */
+
+.top-bar{
+background:#f2ba75;
+padding:15px 40px;
+}
+
+.back-btn{
+text-decoration:none;
+font-weight:bold;
+color:white;
+font-size:16px;
+}
+
+/* TITLE */
+
+.title-section{
+text-align:center;
+padding:40px 20px;
+}
+
+.title-section h1{
+font-size:42px;
+color:#ffc267;
+margin-bottom:0px;
+margin-top: 0px;
+font-family: huhu;
+}
+@font-face {
+    font-family: huhu;
+    src: url(Blue\ Winter.otf);
+}
+
+.title-section p{
+color:#6b4f00;
+font-size:18px;
+}
+
+/* VIDEO */
+
+.video-section{
+display:flex;
+justify-content:center;
+margin:30px 0;
+}
+
+.video-section video{
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* TEXTBOX */
+
+
+.textbox{
+width:70%;
+margin:30px auto;
+padding:30px;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,0.12);
+font-family: yeay;
+}
+
+@font-face {
+    font-family: yeay;
+    src: url(Unageo-ExtraBold.ttf);
+}
+
+.solusi{
+background:linear-gradient(135deg,#fff3c4,#ffe082);
+}
+
+.textbox h2{
+margin-top:0;
+color:#f3a053;
+font-size:28px;
+text-align: center;
+}
+
+.textbox p{
+line-height:1.7;
+font-size:17px;
+color:#5d3300;
+}
+
+/* DID YOU KNOW */
+
+.didyouknow{
+width:70%;
+margin:40px auto;
+padding:25px;
+background:linear-gradient(135deg,#fff1ab,#ffd86b);
+border-left:8px solid #ff9f1c;
+border-radius:15px;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+color:#5d3300;
+font-family:bop;
+}
+
+.didyouknow h3{
+margin-top:0;
+font-size:24px;
+}
+
+/* FONT */
+
+@font-face{
+font-family:bop;
+src:url(ROSSTEN.otf);
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#ffb347;
+margin-top:50px;
+color:white;
+font-weight:bold;
+font-size:16px;
+}
